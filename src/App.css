@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "IBM Plex Sans", sans-serif;
+}
+
+.topbar {
+  position: sticky;
+  top: 0;
+}
+
+#pen{
+  display: none;
+}
+
+@media only screen and (max-width: 900px) {
+  #pen{
+    display: flex;
+      /* border: 2px solid red; */
+    position: sticky;
+    width: 54px;
+    height: 54px;
+    left: 76vw;
+    bottom: 2vh;
+    z-index: 999;
+  }
+}

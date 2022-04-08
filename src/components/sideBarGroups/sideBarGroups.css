@@ -1,0 +1,17 @@
+.sideGroups {
+  margin-top: 54px;
+}
+
+.sideBarGroupsTitle {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0.1em;
+  color: #000000;
+}
+
+.sideBarGroupsTitle img {
+  object-fit: contain;
+  margin-right: 4.75px;
+}

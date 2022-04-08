@@ -1,0 +1,15 @@
+.sideBarLocation {
+  /* border: 2px solid red; */
+  border-bottom: 0.4px solid rgba(184, 184, 184, 1);
+}
+
+#location {
+  width: 100%;
+  outline: none;
+  border: none;
+}
+
+#location:focus {
+  outline: none;
+  border: none;
+}

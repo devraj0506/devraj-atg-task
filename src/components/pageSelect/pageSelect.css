@@ -1,0 +1,59 @@
+.cont {
+  position: sticky;
+  top: 8vh;
+  /* border: 2px solid black; */
+  z-index: 99;
+  background-color: white;
+}
+
+.cont2 {
+  display: none !important;
+}
+
+.pageSelect {
+  /* border: 2px solid green; */
+  border-bottom: 1px solid #e0e0e0;
+  width: 85%;
+  margin: auto;
+}
+
+.pageChoice {
+  border-bottom: 1px solid #000000;
+  text-decoration: none;
+  color: black;
+}
+
+.article {
+  text-decoration: none;
+  color: gray;
+}
+
+@media only screen and (max-width: 900px) {
+  .cont {
+    display: none;
+    margin-top: 28vh;
+    position: sticky;
+    top: 8vh;
+    z-index: 99;
+    background-color: white;
+    /* border: 2px solid brown; */
+  }
+
+  .cont2 {
+    display: flex !important;
+    position: sticky;
+    top: 3vh;
+    z-index: 99;
+    background-color: white;
+    /* border: 2px solid brown; */
+  }
+
+  .cont2Left {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.01em;
+    color: #212529;
+  }
+}

@@ -1,0 +1,112 @@
+.hero::before {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../../images/homeCover.png") no-repeat center center/cover;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  /* width: 100%; */
+  width: 100%;
+  height: 440px;
+  z-index: -1;
+  opacity: 0.94;
+}
+
+.heroNav {
+  display: none !important;
+}
+
+.hero {
+  color: white;
+  /* border: 2px solid black; */
+  height: 374px;
+  width: 100%;
+}
+
+.heroTextBox {
+  position: relative;
+  width: 390px;
+  left: 116px;
+  top: 221px;
+}
+
+div .heroTitle {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 47px;
+}
+div .heroTag {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 23px;
+}
+
+@media only screen and (max-width: 900px) {
+  .hero::before {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url("../../images/mobileHero.png") no-repeat center center/cover;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 260px;
+    z-index: -1;
+    opacity: 0.94;
+    overflow: hidden;
+  }
+
+  .heroNav {
+    display: flex !important;
+    /* border: 2px solid red; */
+    position: absolute;
+  }
+
+  .heroBtnContainer {
+    /* border: 2px solid yellow; */
+    width: 96px;
+    height: 28px;
+  }
+
+  #backArrowimg{
+    cursor: pointer;
+  }
+
+  .hero {
+    width: 100%;
+    height: 235px;
+    /* border: 2px solid black; */
+  }
+
+  .heroTextBox {
+    /* border: 2px solid red; */
+    position: relative;
+    width: fit-content;
+    left: 16px;
+    top: 164px;
+  }
+
+  div .heroTitle {
+    /* border: 2px solid white; */
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 22px;
+    color: #ffffff;
+  }
+
+  div .heroTag {
+    /* border: 2px solid brown; */
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: #ffffff;
+  }
+}

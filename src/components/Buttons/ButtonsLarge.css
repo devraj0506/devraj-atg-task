@@ -1,0 +1,78 @@
+.btncontainer {
+  /* border: 2px solid red; */
+  padding: 0;
+}
+
+.btn {
+  border: 0.7px solid #a9aeb8;
+  width: 100%;
+  margin: 26px 0 5px 0;
+  border-radius: 8px;
+}
+
+.btn:hover {
+  color: rgba(229, 97, 53, 1);
+}
+
+.btn--orange {
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 140.4%;
+  text-align: center;
+  color: rgba(229, 97, 53, 1);
+}
+
+.btn--green {
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 140.4%;
+  text-align: center;
+  color: rgba(2, 184, 117, 1);
+}
+
+.blue {
+  background-color: rgba(47, 108, 229, 1);
+  color: rgba(255, 255, 255, 1);
+  height: 40px;
+}
+
+.br2 {
+  border-radius: 20px;
+}
+
+.sign {
+  height: 34px;
+  background: #ffffff;
+  border: 0.6px solid #d9d9db;
+  border-radius: 2px;
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #000000;
+  margin-top: 2%;
+}
+
+.sign2 {
+  border: 0.8px solid #ffffff;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  width: 100%;
+  height: 100% ;
+  margin: 0 0 0 0;
+  border-radius: 8px;
+  color: rgba(255, 255, 255, 1);
+  border-radius: 4px;
+}
+.sign2:hover{
+  color: gray ;
+}
+
+

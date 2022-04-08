@@ -1,0 +1,5 @@
+.sideBar {
+  /* border: 2px solid red; */
+  position: sticky;
+  top: 20vh;
+}

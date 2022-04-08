@@ -1,0 +1,17 @@
+.sideNote img {
+  object-fit: contain;
+}
+
+.sideNoteDesc {
+  /* border: 2px solid green; */
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  color: #000000;
+  opacity: 0.5;
+}
+
+#close {
+  cursor: pointer;
+}

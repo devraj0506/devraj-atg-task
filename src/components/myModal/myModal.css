@@ -1,0 +1,89 @@
+.modal-header .btn-close {
+  padding: 0.5rem 0.5rem;
+  margin: -7.5rem -1.5rem -15px auto;
+}
+
+.modal-content {
+  border-radius: 8px;
+}
+
+.btn-close {
+  background: transparent url(../../images/modalCloseIcon.png) center/cover
+    no-repeat;
+  /* border: 2px solid red; */
+  height: 10px;
+  width: 10px;
+}
+
+.modal1 {
+  background-color: rgba(239, 255, 244, 1);
+}
+
+.modal2 {
+  width: 100%;
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  color: #008a45;
+}
+
+@media only screen and (max-width: 900px) {
+  .modal-content {
+    /* border: 2px solid red; */
+    position: absolute;
+    top: 32vh;
+    border-radius: 8px 8px 0px 0px;
+  }
+
+  .btn-close {
+    display: flex;
+    position: absolute;
+    z-index: 99;
+    background: transparent url(../../images/closeIconMobile.png) center/cover
+      no-repeat;
+    /* border: 2px solid red; */
+    height: 10px;
+    width: 10px;
+    top: 8vh;
+    left: 63vh;
+    margin: -1.5rem 0.5rem -15px !important;
+    cursor: pointer;
+  }
+
+  .modal2 {
+    display: none !important;
+  }
+
+  .modal1 {
+    position: absolute;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .btn-close {
+    top: 6vh;
+    left: 44vh;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .btn-close {
+    top: 8vh;
+    left: 33vh;
+  }
+}
+@media only screen and (max-width: 310px) {
+  .btn-close {
+    top: 4vh;
+    left: 34vh;
+  }
+}
+@media only screen and (max-width: 280px) {
+  .btn-close {
+    top: 4vh;
+    left: 32vh;
+  }
+}

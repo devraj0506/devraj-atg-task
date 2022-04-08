@@ -1,0 +1,13 @@
+.groups {
+  /* border: 2px solid green; */
+  margin-top: 24px;
+}
+
+.rightGroup {
+  /* border: 2px solid yellow; */
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  color: #000000;
+}

@@ -1,0 +1,25 @@
+.buttons {
+  margin-left: 2%;
+  width: 133px;
+  height: 36px;
+}
+
+.buttons button {
+  height: 100%;
+  width: 100%;
+  outline: none;
+  border: none;
+}
+
+.w60{
+  width: 69px !important;
+}
+
+.w25{
+  width: 60px !important;
+  
+}
+
+.b14{
+  border-radius: 14px;
+}

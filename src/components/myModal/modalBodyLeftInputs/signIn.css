@@ -1,0 +1,94 @@
+.modalContainerLeft {
+  /* border: 2px solid red; */
+}
+
+.modalContainerLeft input {
+  height: 46px;
+}
+
+.modalContainerLeft input:focus {
+  border: none;
+  outline: none;
+}
+
+.myS {
+  /* border: 2px solid red; */
+  width: 160%;
+}
+
+.forgotPass {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  /* identical to box height, or 133% */
+
+  text-align: center;
+  letter-spacing: -0.008em;
+}
+
+.mobileSignIn span{
+  display: none;
+}
+
+@media only screen and (max-width: 990px){
+  .myS{
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .myS {
+    width: 100%;
+  }
+
+  .modalContainerLeft{
+    /* border: 2px solid red; */
+    width:210%;
+  }
+
+  .modalContainerRight{
+    /* border: 2px solid yellow; */
+  }
+
+  .mobileSignIn{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .mobileSignIn span{
+    display: flex;
+  }
+
+
+
+ 
+}
+
+@media only screen and (max-width: 500px) {
+  .modalContainerLeft{
+    /* border: 2px solid red; */
+    width:180%;
+  }
+}
+@media only screen and (max-width: 450px) {
+  
+
+  .modalContainerLeft{
+    /* border: 2px solid red; */
+    max-width:130%;
+  }
+}
+
+@media only screen and (max-width: 330px) {
+  
+
+  .modalContainerLeft{
+    /* border: 2px solid red; */
+    max-width:100%;
+  }
+}
+
+
+
+ 

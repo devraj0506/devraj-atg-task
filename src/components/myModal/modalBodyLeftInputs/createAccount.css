@@ -1,0 +1,45 @@
+.modalContainerLeft {
+  /* border: 2px solid red; */
+}
+
+.modalContainerLeft input {
+  height: 46px;
+}
+
+.modalContainerLeft input:focus {
+  border: none;
+  outline: none;
+}
+
+#linktoSignin {
+  display: none;
+}
+
+.myC {
+  /* border: 2px solid red; */
+  width: 185%;
+}
+
+@media only screen and (max-width: 900px) {
+  .myC {
+    width: 100%;
+  }
+
+  .modalContainerLeft {
+    /* border: 2px solid red; */
+    width: 200%;
+  }
+
+  .modalContainerRight {
+    /* border: 2px solid yellow; */
+  }
+
+  .mobileCreate {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  #linktoSignin {
+    display: flex;
+  }
+}
